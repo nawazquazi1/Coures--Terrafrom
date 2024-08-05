@@ -1,0 +1,7 @@
+# terraform plan for finding plan
+# terraform apply for run file
+# terraform validate  for checking file is validate or not
+# terraform output 
+# terraform console for direct print variable
+# terraform fmt for formating files 
+# terraform plan -var 'variablename=["valueone","valuetwo","value3"]'
