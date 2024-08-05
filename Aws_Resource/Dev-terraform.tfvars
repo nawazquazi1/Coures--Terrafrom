@@ -1,14 +1,13 @@
-
-# export access_Key it is best prectice to store credinaction in enverment variable
-
+access_Key = "*****************************"
+secret_key = "*****************************"
 
 image         = "ami-04a81a99f5ec58529"
-instance_type = "t2.micro"
-region        = "us-east-1"
+instance_type = "t2.large"
+region        = "us-east-2"
 ingress_rules = [
   {
-    from_port   = 22
-    to_port     = 22
+    from_port   = 443
+    to_port     = 443
     protocol    = "tcp"
     cidr_blocks = ["0.0.0.0/0"]
   },
@@ -19,8 +18,6 @@ ingress_rules = [
     cidr_blocks = ["0.0.0.0/0"]
   }
 ]
-user_data = <<-EOF
+# user_data = <<-EOF
                  
-  EOF
-
-
+#   EOF

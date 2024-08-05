@@ -1,7 +1,15 @@
 # terraform plan for finding plan
 # terraform apply for run file
 # terraform validate  for checking file is validate or not
-# terraform output 
+# terraform output  for show  specific output
 # terraform console for direct print variable
-# terraform fmt for formating files 
-# terraform plan -var 'variablename=["valueone","valuetwo","value3"]'
+# terraform fmt for formatting files 
+# terraform plan -var 'variableName=["valueOne","valueTwo","valueThree"]'
+# terraform apply -var-file dev-terraform.tfvars to attach specific file to variables
+# terraform init downlod resoures
+# terraform taint for mark a resource as damage and delete old resource and create new  terraform not suggest for using this using terraform apply --replace
+# terraform graph | dot -Tpdf > graph.pdf for creating lifecycle image
+# terraform workspace list for show all workspace 
+# terraform workspace new filname create new workspace
+# terraform workspace show for check which workspace we are in
+# terraform workspace select filname for swithing workspace 

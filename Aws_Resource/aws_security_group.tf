@@ -1,7 +1,7 @@
 resource "aws_security_group" "my_security_group" {
   name        = "my-security-group"
   description = "My security group"
-  
+
 
   dynamic "ingress" {
     for_each = var.ingress_rules

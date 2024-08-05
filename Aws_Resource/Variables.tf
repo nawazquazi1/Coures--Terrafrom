@@ -1,13 +1,16 @@
 variable "access_Key" {
-type = string
+  type = string
 }
 variable "secret_key" {
-type = string
+  type = string
 }
 variable "image" {
   type = string
 }
 variable "instance_type" {
+  type = string
+}
+variable "region" {
   type = string
 }
 variable "ingress_rules" {
@@ -28,3 +31,5 @@ variable "ingress_rules" {
   ]
 }
 
+variable "user_data" {
+}

@@ -1,6 +1,5 @@
-
-# export access_Key it is best prectice to store credinaction in enverment variable
-
+access_Key = "*************************"
+secret_key = "*************************"
 
 image         = "ami-04a81a99f5ec58529"
 instance_type = "t2.micro"
@@ -22,5 +21,3 @@ ingress_rules = [
 user_data = <<-EOF
                  
   EOF
-
-
