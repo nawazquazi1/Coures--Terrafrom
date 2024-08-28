@@ -41,7 +41,10 @@
 # terraform workspace delete <workspace_name> for deleting a workspace
 # terraform init -upgrade for upgrading modules and providers
 # terraform init -reconfigure for reconfiguring backend settings
+<<<<<<< HEAD
 # terraform init -migrate-state for copy 
+=======
+>>>>>>> 9c400565a5e91f7fd6bf7281558b14eef0f7b12e
 # terraform output -json for showing the outputs in JSON format
 # terraform plan -out=plan.tfplan for saving the plan to a file
 # terraform output -raw <output_name> for showing a specific output in raw format
