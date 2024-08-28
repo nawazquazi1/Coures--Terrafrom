@@ -1,15 +1,50 @@
-# terraform plan for finding plan
-# terraform apply for run file
-# terraform validate  for checking file is validate or not
-# terraform output  for show  specific output
-# terraform console for direct print variable
-# terraform fmt for formatting files 
-# terraform plan -var 'variableName=["valueOne","valueTwo","valueThree"]'
-# terraform apply -var-file dev-terraform.tfvars to attach specific file to variables
-# terraform init downlod resoures
-# terraform taint for mark a resource as damage and delete old resource and create new  terraform not suggest for using this using terraform apply --replace
-# terraform graph | dot -Tpdf > graph.pdf for creating lifecycle image
-# terraform workspace list for show all workspace 
-# terraform workspace new filname create new workspace
-# terraform workspace show for check which workspace we are in
-# terraform workspace select filname for swithing workspace 
+# terraform plan for finding the execution plan
+# terraform apply for running the configuration
+# terraform validate for checking if the configuration is valid
+# terraform output for showing specific outputs
+# terraform console for directly printing variables
+# terraform fmt for formatting files
+# terraform plan -var 'variableName=["valueOne","valueTwo","valueThree"]' for passing inline variables during planning
+# terraform apply -var-file dev-terraform.tfvars to attach a specific file to variables
+# terraform apply -auto-approve for applying the plan without prompting for confirmation
+# terraform apply -lock=false to disable locking of the state file during apply
+# terraform apply -parallelism=5 to limit the number of concurrent operations
+# terraform apply -target=resource_name for applying changes to a specific resource
+# terraform apply plan.tfplan for applying the plan from a file
+# terraform init to download necessary resources
+# terraform taint for marking a resource as damaged and deleting the old resource to create a new one
+# terraform graph | dot -Tpdf > graph.pdf for creating a lifecycle image
+# terraform workspace list for showing all workspaces
+# terraform workspace new filename for creating a new workspace
+# terraform workspace show for checking which workspace you are in
+# terraform workspace select filename for switching workspaces
+# terraform destroy for destroying Terraform-managed infrastructure
+# terraform show for displaying the state of the managed infrastructure
+# terraform show -json for outputting the state file to JSON format
+# terraform refresh for refreshing the Terraform state
+# terraform lock for locking the workspace for a manual operation
+# terraform force-unlock <lock_id> for unlocking the workspace if locked
+# terraform import for importing existing infrastructure into Terraform
+# terraform state list for listing resources in the Terraform state
+# terraform state show <resource> for showing a resource in the Terraform state
+# terraform state mv for moving resources in the Terraform state
+# terraform state rm for removing resources from the Terraform state
+# terraform state pull for pulling the state from remote
+# terraform state push for pushing the state to remote
+# terraform version for showing the Terraform version
+# terraform providers for listing providers used in the configuration
+# terraform get for downloading modules
+# terraform apply -input=false for skipping interactive prompts
+# terraform apply -refresh=false for applying the plan without refreshing the state
+# terraform untaint for unmarking a resource as tainted
+# terraform graph | dot -Tpng > graph.png for creating a lifecycle image in PNG format
+# terraform workspace delete <workspace_name> for deleting a workspace
+# terraform init -upgrade for upgrading modules and providers
+# terraform init -reconfigure for reconfiguring backend settings
+# terraform init -migrate-state for copy 
+# terraform output -json for showing the outputs in JSON format
+# terraform plan -out=plan.tfplan for saving the plan to a file
+# terraform output -raw <output_name> for showing a specific output in raw format
+# terraform plan -detailed-exitcode to get a detailed exit code based on changes
+# terraform refresh -target=resource_name for refreshing the state of a specific resource
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
